@@ -32,7 +32,7 @@ app = Flask(__name__)
 
 # Initialize OpenAI client
 client = OpenAI(
-    api_key=os.getenv("GROQ_API_KEY"),
+    api_key=os.getenv("API_KEY"),
     base_url=os.getenv("base_url"),
 )
 
